@@ -1,0 +1,13 @@
+# Reference: https://jekyllrb.com/docs/configuration/
+
+exclude: ['Gemfile.lock', 'Gemfile', 'Guardfile', 'README.md']
+
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: 'default'
+
+sass:
+    sass_dir: _sass
