@@ -1,0 +1,8 @@
+Fontin muuttaminen:
+- Otsikot "kaksiviivaisina", "rustiikkisemmat".
+- Isompi perusfontti, otsikot voi olla nykyisen kokoisia.
+
+Värimaailma: enemmän punaista tai "Alian violettia".
+
+Ilmoittautumisnapin väri: mielellään lila, tai kuvaan sopiva (kun kuva valittu).
+
