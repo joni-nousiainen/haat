@@ -26,16 +26,16 @@ title: Niinan ja Jonin häät
     </div>
 
     <nav class="hidden-md hidden-lg hidden-print">
-      <select class="form-control">
+      <select id="menu" class="form-control">
         <option>Valikko</option>
-        <option onclick="window.location = '#paikka-ja-saapuminen'">Paikka ja saapuminen</option>
-        <option onclick="window.location = '#aikataulu-ja-ohjelma'">Aikataulu ja ohjelma</option>
-        <option onclick="window.location = '#yopyminen-ja-majoitus'">Yöpyminen ja majoitus</option>
-        <option onclick="window.location = '#pukukoodi'">Pukukoodi</option>
-        <option onclick="window.location = '#muistaminen'">Muistaminen</option>
-        <option onclick="window.location = '#ilmoittautuminen'">Ilmoittautuminen</option>
-        <option onclick="window.location = '#yhteystiedot'">Yhteystiedot</option>
-        <option onclick="window.location = '#kuvia'">Bonus: Kuvia</option>
+        <option value="paikka-ja-saapuminen">Paikka ja saapuminen</option>
+        <option value="aikataulu-ja-ohjelma">Aikataulu ja ohjelma</option>
+        <option value="yopyminen-ja-majoitus">Yöpyminen ja majoitus</option>
+        <option value="pukukoodi">Pukukoodi</option>
+        <option value="muistaminen">Muistaminen</option>
+        <option value="ilmoittautuminen">Ilmoittautuminen</option>
+        <option value="yhteystiedot">Yhteystiedot</option>
+        <option value="kuvia">Bonus: Kuvia</option>
       </select>
     </nav>
 
@@ -91,7 +91,7 @@ title: Niinan ja Jonin häät
 
     <p>Sitovat ilmoittautumiset viimeistään 15.5.2016 mennessä.</p>
 
-    <p>Jos sähköisen lomakkeen täyttäminen tuottaa hankaluuksia, voit myös ilmoittaa tietosi suoraan morsiusparille.</p>
+    <p>Jos sähköisen lomakkeen täyttäminen tuottaa hankaluuksia, voit myös ilmoittaa tietosi suoraan hääparille.</p>
 
     <h2 id="yhteystiedot">Yhteystiedot</h2>
 
@@ -110,5 +110,7 @@ title: Niinan ja Jonin häät
     <hr id="kuvia" class="visible-xs visible-sm">
     <img src="assets/img/pysty.jpg" width="100%" alt="Niina ja Joni kollaasi">
   </div>
+
+  <script type="text/javascript" src="assets/js/menu.js"></script>
 
 </div>
